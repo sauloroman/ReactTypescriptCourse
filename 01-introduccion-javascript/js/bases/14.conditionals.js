@@ -14,3 +14,16 @@ if ( auth ) {
 } else {
   console.log('No tienes permiso, inicia sesion')
 }
+
+let value = '10'
+const valueNumber = 10
+
+if ( value == valueNumber ) {
+  console.log('Son iguales en valor')
+}
+
+// Operador estricto
+value = 10
+if ( value === valueNumber ) {
+  console.log('Son iguales en valor y en tipo')
+}
